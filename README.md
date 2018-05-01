@@ -38,11 +38,13 @@ files present human speech in studio quality recordings:
 
 
 The "testaudio" folder contains the test files that were concatenated
-from original files, with pauses removed. The test audio is available in
-mono in 44100Hz, 16000Hz, and 8000Hz sampling rate:
+from original sources, with breath pauses removed. The test audio is 
+available in mono in 48000 Hz (upsampled from 44100Hz originals), 
+44100Hz, 16000Hz, and 8000Hz sampling rate:
 
-* test01_20s.wav: 20 seconds test audio
-* test02_20s.wav: 20 seconds test audio
+* test01_20s.wav: 20 seconds test audio, 2 seconds of silence 
+  at the start and the end of a file
+
 
 
 Original audio Copyright (c) their respective authors.
